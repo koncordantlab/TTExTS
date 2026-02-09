@@ -9,6 +9,7 @@ from gensim.models import Word2Vec
 import random
 import numpy as np
 from hybrid import Hybrid
+from node2vec_trainer import Node2Vec
 
 SEED = 42
 random.seed(SEED)
@@ -95,18 +96,18 @@ mrr = link_predictor_hp_tuned.mean_reciprocal_rank(ground_truth, similar_books_h
 ndcg = link_predictor_hp_tuned.normalized_discounted_cumulative_gain(ground_truth, similar_books_hp_tuned, k=10)
 
 print(f"Hit@10: {hit_at_10:.4f}")
-print(f"Hit@5: {hit_at_10:.4f}")
+print(f"Hit@5: {hit_at_5:.4f}")
 print(f"Hit@3: {hit_at_3:.4f}")
 print(f"Hit@1: {hit_at_1:.4f}")
 print(f"MRR: {mrr:.4f}")
 print(f"NDCG@10: {ndcg:.4f}")
 
-# with open('new_recomm_updated_graph_2.txt', 'w') as f:
-#     for book in similar_books_hp_tuned.keys():
-#         f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
-#         for result in similar_books_hp_tuned[book]:
-#             f.write(f'{str(result[0])[38:]}\n')
-#         f.write('\n')
+with open('data/recommendations/deepwalk.txt', 'w') as f:
+    for book in similar_books_hp_tuned.keys():
+        f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
+        for result in similar_books_hp_tuned[book]:
+            f.write(f'{str(result[0])[38:]}\n')
+        f.write('\n')
 
 
 # Test BiasedRandomWalker
@@ -172,18 +173,18 @@ mrr_biased = biased_link_predictor.mean_reciprocal_rank(ground_truth, similar_bo
 ndcg_biased = biased_link_predictor.normalized_discounted_cumulative_gain(ground_truth, similar_books_biased, k=10)
 
 print(f"Hit@10: {hit_at_10_biased:.4f}")
-print(f"Hit@5: {hit_at_10_biased:.4f}")
+print(f"Hit@5: {hit_at_5_biased:.4f}")
 print(f"Hit@3: {hit_at_3_biased:.4f}")
 print(f"Hit@1: {hit_at_1_biased:.4f}")
 print(f"MRR: {mrr_biased:.4f}")
 print(f"NDCG@10: {ndcg_biased:.4f}")
 
-# with open('biased_new_recomm3_graph_2.txt', 'w') as f:
-#     for book in similar_books_biased.keys():
-#         f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
-#         for result in similar_books_biased[book]:
-#             f.write(f'{str(result[0])[38:]}\n')
-#         f.write('\n')
+with open('data/recommendations/biased_random_walk.txt', 'w') as f:
+    for book in similar_books_biased.keys():
+        f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
+        for result in similar_books_biased[book]:
+            f.write(f'{str(result[0])[38:]}\n')
+        f.write('\n')
 
 hybrid = Hybrid(model_hp_tuned, biased_model, owl_file_path)
 
@@ -199,14 +200,63 @@ ndcg_hybrid = LinkPredictor.normalized_discounted_cumulative_gain(ground_truth, 
 print(f"\nFinal AUC Score of hybrid model: {hybrid.get_auc_score(test_edges, test_neg_samples):.4f}")
 print(f"Results of the hybrid model: ")
 print(f"Hit@10: {hit_at_10_hybrid:.4f}")
-print(f"Hit@5: {hit_at_10_hybrid:.4f}")
+print(f"Hit@5: {hit_at_5_hybrid:.4f}")
 print(f"Hit@3: {hit_at_3_hybrid:.4f}")
 print(f"Hit@1: {hit_at_1_hybrid:.4f}")
 print(f"MRR: {mrr_hybrid:.4f}")
 print(f"NDCG@10: {ndcg_hybrid:.4f}")
 
+with open('data/recommendations/hybrid.txt', 'w') as f:
+    for book in similar_books_hybrid.keys():
+        f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
+        for result in similar_books_hybrid[book]:
+            f.write(f'{str(result[0])[38:]}\n')
+        f.write('\n')
 
 
+# node2vec_tuner = HyperParameterTuner(deepwalk_graph, test_edges=val_edges, test_neg_samples=val_neg_samples, owl_file=owl_file_path)
+# best_params_node2vec = node2vec_tuner.tune_hyperparameters_node2vec(n_trials=50)
+# node2vec_trainer = Node2Vec(
+#         G=deepwalk_graph,
+#         dimensions=best_params_node2vec['dimensions'],
+#         walk_length=best_params_node2vec['walk_length'],
+#         num_walks=best_params_node2vec['num_walks'],
+#         window_size=best_params_node2vec['window_size'],
+#         p=best_params_node2vec['p'],
+#         q=best_params_node2vec['q'],
+#         workers=4
+#     )
+
+# model_node2vec = node2vec_trainer.train_embeddings()
+# model_node2vec.save('./data/node2vec_hp_tuned.model')
+
+model_node2vec = Word2Vec.load('./data/node2vec_hp_tuned.model')
+link_predictor_node2vec = LinkPredictor(model_node2vec, owl_file_path)
+final_auc_node2vec = link_predictor_node2vec.evaluate(test_edges, test_neg_samples)
+print(f"\nFinal AUC Score with Node2Vec: {final_auc_node2vec:.4f}")
+
+similar_books_node2vec = link_predictor_node2vec.get_similar_books(top_n=15)
+ground_truth = prep.get_ground_truth("./data/ground_truth.csv")
+hit_at_10_node2vec = link_predictor_node2vec.hit_at_k(ground_truth, similar_books_node2vec, k=10)
+hit_at_5_node2vec = link_predictor_node2vec.hit_at_k(ground_truth, similar_books_node2vec, k=5)
+hit_at_3_node2vec = link_predictor_node2vec.hit_at_k(ground_truth, similar_books_node2vec, k=3)
+hit_at_1_node2vec = link_predictor_node2vec.hit_at_k(ground_truth, similar_books_node2vec, k=1)
+mrr_node2vec = link_predictor_node2vec.mean_reciprocal_rank(ground_truth, similar_books_node2vec)
+ndcg_node2vec = link_predictor_node2vec.normalized_discounted_cumulative_gain(ground_truth, similar_books_node2vec, k=10)
+
+print(f"Hit@10: {hit_at_10_node2vec:.4f}")
+print(f"Hit@5: {hit_at_5_node2vec:.4f}")
+print(f"Hit@3: {hit_at_3_node2vec:.4f}")
+print(f"Hit@1: {hit_at_1_node2vec:.4f}")
+print(f"MRR: {mrr_node2vec:.4f}")
+print(f"NDCG@10: {ndcg_node2vec:.4f}")
+
+with open('data/recommendations/node2vec.txt', 'w') as f:
+    for book in similar_books_node2vec.keys():
+        f.write(f'The top 10 recommendations for {str(book)[38:]} are:\n')
+        for result in similar_books_node2vec[book]:
+            f.write(f'{str(result[0])[38:]}\n')
+        f.write('\n')
 
 '''
 These results are based on the new graph:
@@ -248,6 +298,8 @@ Hit@3: 0.3684
 Hit@1: 0.3158
 MRR: 0.3850
 NDCG@10: 0.4162
+
+for Node2Vec: {'walk_length': 60, 'num_walks': 15, 'dimensions': 128, 'window_size': 20, 'p': 1.0, 'q': 0.25}
 '''
 
 

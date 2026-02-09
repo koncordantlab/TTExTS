@@ -2,6 +2,7 @@ import optuna
 from deepwalk_trainer import DeepwalkTrainer
 from link_predictor import LinkPredictor
 import networkx as nx
+from node2vec_trainer import Node2Vec
 
 class HyperParameterTuner:
     def __init__(self, graph, test_edges, test_neg_samples, owl_file):
@@ -23,7 +24,9 @@ class HyperParameterTuner:
             "walk_length": [15, 20, 25, 30, 40, 60],
             "num_walks": [15, 20, 25, 30, 40],
             "dimensions": [128, 256, 512],
-            "window_size": [5, 10, 15, 20]
+            "window_size": [5, 10, 15, 20],
+            "p": [0.25, 0.5, 1.0],
+            "q": [0.25, 0.5, 1.0]
         }
 
     def sample_hyperparameter(self, trial, param_name):
@@ -50,6 +53,31 @@ class HyperParameterTuner:
         auc_score = link_predictor.evaluate(self.test_edges, self.test_neg_samples)
         
         return auc_score
+    
+    def node2vec_objective(self, trial):
+        """Objective function for Optuna for Node2Vec"""
+        walk_length = self.sample_hyperparameter(trial, "walk_length")
+        num_walks = self.sample_hyperparameter(trial, "num_walks")
+        dimensions = self.sample_hyperparameter(trial, "dimensions")
+        window_size = self.sample_hyperparameter(trial, "window_size")
+        p = self.sample_hyperparameter(trial, "p")
+        q = self.sample_hyperparameter(trial, "q")
+
+        node2vec_trainer = Node2Vec(
+            G=self.graph,
+            dimensions=dimensions,
+            walk_length=walk_length,
+            num_walks=num_walks,
+            window_size=window_size,
+            p=p,
+            q=q,
+            workers=4
+        )
+        model = node2vec_trainer.train_embeddings()
+        link_predictor = LinkPredictor(model, self.owl_file)
+        auc_score = link_predictor.evaluate(self.test_edges, self.test_neg_samples)
+        
+        return auc_score
 
     def tune_hyperparameters(self, n_trials=20):
         """
@@ -64,6 +92,18 @@ class HyperParameterTuner:
         print(f"\n✅ Best Hyperparameters: {study.best_params}")
         return study.best_params
 
+    def tune_hyperparameters_node2vec(self, n_trials=20):
+        """
+        Run Optuna hyperparameter tuning for Node2Vec.
+
+        :param n_trials: Number of trials to run
+        :return: Best set of hyperparameters
+        """
+        study = optuna.create_study(direction="maximize")
+        study.optimize(self.node2vec_objective, n_trials=n_trials)
+
+        print(f"\n✅ Best Hyperparameters for Node2Vec: {study.best_params}")
+        return study.best_params
 
 
 if __name__ == "__main__":
