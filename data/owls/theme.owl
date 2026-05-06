@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Gender_Roles">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Altruism_vs_self_interest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Religious_Oppression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Power_of_words">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Freedom_vs_Control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Order_vs_Disorder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Civil_disobedience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Legacy_of_slavery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Systemic_racism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Education">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_discovery">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Personal_and_public_truth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Survival">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tragedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Healing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tragedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Fragility_of_life">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mortality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Superstition_vs_Reality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Grief"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Resilience">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Perseverance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Heroism_vs_normalcy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Courage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Deceit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Greed_vs_Selflessness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Toxic_capitalism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Burdens_of_war">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality_in_war"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Totalitarianism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Connection_to_nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_cost_of_happiness_and_individuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Freedom_vs_Control"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_importance_of_a_home_and_love">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Superficiality_of_beauty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Vanity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Storytelling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Power_of_words"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Kindness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Nature_as_a_force">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Man_vs_Nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Revenge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Personal_growth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_discovery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Equality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_importance_of_human_connection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Found_Family"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Community">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Isolation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Class_corruption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Social_class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Betrayal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Toxic_capitalism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Class_and_society"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_reliance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Solitude"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Pursuit_of_happiness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Mass_Hysteria">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Indigenous_oppression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Racial_Inequality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Technological_control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Censorship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Death">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Aging"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Martial_expectations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Marriage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Immortality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mortality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Human_insignificance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Systemic_racism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Racial_Inequality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Friendship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Social_Belonging"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_butterfly_effect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_worth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Universe_indifference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_insignificance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Sacrifice_for_family">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_struggle_for_justice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Justice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Masculinity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Patriarchal_control"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Solitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Isolation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dark_side_of_human_nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_nature_of_evil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Advocacy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_voice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Nuclear_war">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality_in_war"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Duality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Sexuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Chivalry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Tradition_vs_Change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Morality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Poverty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Ambition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Defiance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Facing_racism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Fate_and_foreknowledge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Fate_vs_Free_will"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Grief">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_supernatural"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Selflessness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Love_vs_Hate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Diversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Equality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Gender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Overcoming_adversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Redemption"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_impact_of_love_on_identity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_worth">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_destruction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Finding_beauty_in_the_everyday">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_passage_of_time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Arrogance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Ambition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Class_and_society"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_value_of_life">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mortality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Food_Safety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Health"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Aging">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mortality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Sacrifice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Perseverance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pursuit_of_happiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_passage_of_time">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Legacy_of_heritage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Guilt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Revenge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Greed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Wealth_gap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Power_and_control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Unchecked_ambition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Rhetoric">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Power_of_words"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Consequences_of_selfishness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Democracy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Loss_of_innocence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Authenticity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Anonymity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Isolation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Blind_tradition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Public_ignorance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Redemption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Appearance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_consciousness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Madness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Apology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Forgiveness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Civilization_vs_Barbarism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Civilization_vs_The_wild"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Judgement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Humility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Role_models">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Community"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dishonesty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Cruelty_vs_Kindness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Kindness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_improvement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_discovery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Generational_divide">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition_vs_Change"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_myth_of_individual_success">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Community"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Food_in_culture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Cultural_identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Cultural_belonging">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Social_Belonging"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Ethics_of_science_experimentation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_consciousness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Censorship">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Mortality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tragedy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Fate_vs_Free_will">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Civil_disobedience">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Facing_racism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Facing_racism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Youth_vs_Age">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Dangers_of_naivety"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Consequences_of_actions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Loss_of_innocence"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Victory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Honor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Rights_to_language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Power_of_words"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Self_expression">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Primal_instincts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Survival"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Cycle_of_Violence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Abuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Hypocrisy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Dishonesty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dangers_of_tempting_fate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Fate_vs_Free_will"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Innovation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Creativity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Social_Status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Ambition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Child_labor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Abuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Motherhood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Race">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Love">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Revenge_love">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Revenge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Destiny">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Fate_vs_Free_will"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Identity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Moral_corruption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Wealth_vs_Value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Toxic_capitalism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Strategy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dangers_of_naivety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Vanity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Confronting_the_past">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Personal_growth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Courage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Coming_of_age"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Stereotypes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Limits_of_knowledge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Cultural_conflict">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Prejudice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Loyalty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_cruelty_of_bullying">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Faith_vs_Knowledge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Individuality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pursuit_of_happiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Imagination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Intelligence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Health">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Complexity_of_childhood_behavior">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_cruelty_of_bullying"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Consumerism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Toxic_capitalism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Justice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Gods_Will">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Faith_vs_Knowledge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Fear_of_the_unknown">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Grief"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Social_Belonging">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Community"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_danger_of_temptation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Misinformation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Deceit"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Coming_of_age">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Good_vs_Evil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_nature_of_evil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Class_and_society">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Unchecked_ambition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Leadership"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Tragedy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Leadership">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Indigenous_rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Facing_racism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Phoniness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Isolation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Lost_opportunities">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_passage_of_time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Opportunity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pursuit_of_happiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Obsession">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Madness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Nationalism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Resourcefulness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Man_vs_Nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Racial_injustice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Racial_Inequality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Forgiveness">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Compassion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Purpose">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_discovery"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Found_Family">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Community"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Unpredictability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Expectations_vs_Reality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_impact_of_technology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Technological_control"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Experience_of_Art">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Logical_Paradox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Duality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Expectations_vs_Reality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pursuit_of_happiness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Social_class">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Class_and_society"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dreams_vs_Reality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Expectations_vs_Reality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Honor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Cultural_identity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Crime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_nature_of_evil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_value_of_reputation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Social_Status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Fact_vs_Fiction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Duality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Unconditional_love">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Found_Family"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Racial_Inequality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Rebellion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Civil_disobedience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Love_vs_Self_interest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Disconnection_between_body_and_mind">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Man_vs_Nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Survival"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Creativity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Acceptance_of_change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Resilience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Savagery_vs_Civilization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Primal_instincts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Betrayal_vs_Loyalty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Betrayal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Compassion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Inhumanity_towards_others">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Accountability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_worth"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Jealousy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Pride"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Independence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Identity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Dignity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Humility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Tradition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Conformity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Self_consciousness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Alienation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Isolation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_power_of_voice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Courage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Domesticity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Gender_Roles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/Theme">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Propaganda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Censorship"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Patriotism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Nationalism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Violence_for_power">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Power_and_control"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Immigration">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Tolerance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Equality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Familial_expectations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Tradition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Spirituality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mortality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_role_of_nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Limits_of_knowledge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Judgement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Gratitude">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Scientific_curiosity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Technological_advancements"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Marriage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Gender_Roles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Empathy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Compassion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Relationships">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Love"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Human_impact_on_the_environment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Moral_Responsibility"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Divine_Intervention">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Faith_vs_Knowledge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Corruption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Totalitarianism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Memory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_power_of_the_mind"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Wealth_gap">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Ambition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Silence">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Abuse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Physical_activity_and_movement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Health"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Morality_in_war">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Urgency_of_action">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/The_passage_of_time"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Technological_advancements">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Respect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Kindness"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Hatred">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Inhumanity_towards_others"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Moral_Responsibility">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_supernatural">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Mass_Hysteria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Corporations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Toxic_capitalism"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Abuse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Pride">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Human_nature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/The_nature_of_evil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Morality"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Prejudice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Race"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Limits_of_human_agency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Destiny"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Human_nature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Patriarchal_control">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/theme/Civilization_vs_The_wild">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/theme/Man_vs_Nature"/>
+  </rdf:Description>
+</rdf:RDF>

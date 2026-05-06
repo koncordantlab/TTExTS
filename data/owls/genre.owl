@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Crime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Fantasy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Science">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Historical">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Gothic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Horror">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Dystopian">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Satire">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Portal_Fantasy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fantasy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Drama">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Classic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Childrens_Literature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Religious">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Adventure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Realistic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Realistic_Drama">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Drama"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Self_help">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Nonfiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Autobiographical_Fiction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Realistic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Political_Rhetoric">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Nonfiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Bildungsroman">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Humorous">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Nonfiction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Poetry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Memoir">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Autobiography"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Vignette">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Narrative_Poetry">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Poetry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Fable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Psychological">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Dark_Romanticism">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Gothic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Lyric">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Poetry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Classic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Epic">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Narrative_Poetry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Autobiography">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Nonfiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Frame_Narrative">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/genre/Fiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://koncordantlab.com/TTEXTS/genre/Fiction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://koncordantlab.com/TTEXTS/Genre"/>
+  </rdf:Description>
+</rdf:RDF>

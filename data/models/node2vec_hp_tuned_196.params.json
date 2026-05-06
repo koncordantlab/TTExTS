@@ -1,0 +1,8 @@
+{
+  "walk_length": 100,
+  "num_walks": 50,
+  "dimensions": 1024,
+  "window_size": 30,
+  "node2vec_p": 2.0,
+  "node2vec_q": 4.0
+}

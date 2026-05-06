@@ -1,0 +1,6 @@
+{
+  "walk_length": 60,
+  "num_walks": 25,
+  "dimensions": 1024,
+  "window_size": 25
+}
