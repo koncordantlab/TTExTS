@@ -7,6 +7,37 @@ This repository contains the code, data, and ontology for T-TExTS, a knowledge g
 Published in *Data Mining and Knowledge Discovery* (2026), 40:70.
 [https://doi.org/10.1007/s10618-026-01228-5](https://doi.org/10.1007/s10618-026-01228-5)
 
+## Citation
+
+If you use T-TExTS in your work, please cite:
+
+> Gelal, N., Snow, C., Rios, A., Jagodnik, K. M., & McGinty, H. K. (2026). T-TExTS (teaching text
+> expansion for teacher scaffolding): Enhancing text selection in high school literature through
+> knowledge graph-based recommendation. *Data Mining and Knowledge Discovery*, 40(5), 70.
+> https://doi.org/10.1007/s10618-026-01228-5
+
+```bibtex
+@article{gelal2026t,
+  title={T-TExTS (teaching text expansion for teacher scaffolding): Enhancing text selection in high school literature through knowledge graph-based recommendation},
+  author={Gelal, Nirmal and Snow, Chloe and Rios, Ambyr and Jagodnik, Kathleen M and McGinty, Hande K{\"u}{\c{c}}{\"u}k},
+  journal={Data Mining and Knowledge Discovery},
+  volume={40},
+  number={5},
+  pages={70},
+  year={2026},
+  publisher={Springer}
+}
+```
+
+## Authors
+
+Nirmal Gelal¹, Chloe Snow², Ambyr Rios², Kathleen M. Jagodnik¹, Hande Küçük McGinty¹
+
+¹ Department of Computer Science, Kansas State University
+² Department of Curriculum and Instruction, Kansas State University
+
+Contact: Hande Küçük McGinty — hande@ksu.edu
+
 ## What problem does this solve?
 
 High school English teachers often lack the planning time, materials, and pedagogical training needed to assemble diverse, thematically coherent text sets. As a result, the texts actually taught have remained largely unchanged for a century: familiar, canonical, and frequently mismatched with students' identities and interests.
@@ -74,37 +105,6 @@ For the anchor text *1984*, Node2Vec was the only configuration to recover all f
 
 Running `new_main.py` reproduces the full evaluation, writing aggregated results to
 `data/results/` and run logs to `data/logs/` (both created at runtime).
-
-## Citation
-
-If you use T-TExTS in your work, please cite:
-
-> Gelal, N., Snow, C., Rios, A., Jagodnik, K. M., & McGinty, H. K. (2026). T-TExTS (teaching text
-> expansion for teacher scaffolding): Enhancing text selection in high school literature through
-> knowledge graph-based recommendation. *Data Mining and Knowledge Discovery*, 40(5), 70.
-> https://doi.org/10.1007/s10618-026-01228-5
-
-```bibtex
-@article{gelal2026t,
-  title={T-TExTS (teaching text expansion for teacher scaffolding): Enhancing text selection in high school literature through knowledge graph-based recommendation},
-  author={Gelal, Nirmal and Snow, Chloe and Rios, Ambyr and Jagodnik, Kathleen M and McGinty, Hande K{\"u}{\c{c}}{\"u}k},
-  journal={Data Mining and Knowledge Discovery},
-  volume={40},
-  number={5},
-  pages={70},
-  year={2026},
-  publisher={Springer}
-}
-```
-
-## Authors
-
-Nirmal Gelal¹, Chloe Snow², Ambyr Rios², Kathleen M. Jagodnik¹, Hande Küçük McGinty¹
-
-¹ Department of Computer Science, Kansas State University
-² Department of Curriculum and Instruction, Kansas State University
-
-Contact: Hande Küçük McGinty — hande@ksu.edu
 
 ## License
 
