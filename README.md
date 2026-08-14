@@ -39,28 +39,61 @@ Hyperparameters were tuned with Optuna (50 trials per model per dataset size), u
 
 For the anchor text *1984*, Node2Vec was the only configuration to recover all five expert ground-truth recommendations (*Fahrenheit 451*, *Brave New World*, *Animal Farm*, *The Hunger Games*, *Marrow Thieves*) in its top 10. Consistent near-misses across models — *The Giver*, *The Pedestrian*, *Scythe* — are pedagogically defensible companions that standard ranking metrics penalize.
 
+## Project structure
+
+```
+.
+├── data/                          Datasets, ontologies, graphs, trained models, and outputs
+│   ├── book_data_{98,196,351}.csv     Curated text metadata for each dataset configuration
+│   ├── ground_truth_{19,39,65}.csv    Expert-curated ground-truth recommendations
+│   ├── owls/                          OWL ontologies: genre, theme, and subtheme modules plus the full TBox + ABox output per dataset size
+│   ├── graphs/                        Serialized NetworkX / DeepWalk graphs per dataset size
+│   ├── models/                        Tuned embedding models with their best hyperparameters
+│   └── recommendations/               Final top-n recommendations per model and weight config
+│
+├── kg/                            Ontology and knowledge graph construction (RDFLib)
+│   ├── genre.py                       Genre taxonomy module
+│   ├── theme.py                       Theme taxonomy module
+│   ├── subtheme.py                    Subtheme taxonomy module
+│   └── createKG.ipynb                 Assembles the modules into the full knowledge graph
+│
+├── utils/                         Shared helpers
+│   ├── __init__.py
+│   └── utils.py                       Text cleaning, year normalization, device setup, logging
+│
+├── data_prep.py                   Graph loading and 80/10/10 train/val/test edge splits
+├── negative_sampler.py            Negative triple generation with positive-triple filtering
+├── deepwalk_trainer.py            DeepWalk (uniform random walk) embeddings
+├── biased_random_walker.py        Domain-expert-weighted biased random walk
+├── node2vec_trainer.py            Node2Vec (parameterized random walk) embeddings
+├── hybrid.py                      Hybrid embedding via concatenation of DeepWalk + biased RW
+├── hyper_parameter_tuner.py       Optuna hyperparameter search (link-prediction AUC objective)
+├── link_predictor.py              Evaluation: AUC, Hits@K, MRR, nDCG@10
+└── new_main.py                    Full experiment sweep across dataset sizes, weight configurations, and all four embedding models
+```
+
+Running `new_main.py` reproduces the full evaluation, writing aggregated results to
+`data/results/` and run logs to `data/logs/` (both created at runtime).
 
 ## Citation
 
 If you use T-TExTS in your work, please cite:
 
-> Gelal, N., Snow, C., Rios, A., Jagodnik, K. M., & Küçük McGinty, H. (2026). T-TExTS (Teaching
-> Text Expansion for Teacher Scaffolding): Enhancing Text Selection in High School Literature
-> through Knowledge Graph-Based Recommendation. *Data Mining and Knowledge Discovery*, 40, 70.
+> Gelal, N., Snow, C., Rios, A., Jagodnik, K. M., & McGinty, H. K. (2026). T-TExTS (teaching text
+> expansion for teacher scaffolding): Enhancing text selection in high school literature through
+> knowledge graph-based recommendation. *Data Mining and Knowledge Discovery*, 40(5), 70.
 > https://doi.org/10.1007/s10618-026-01228-5
 
 ```bibtex
-@article{gelal2026ttexts,
-  title   = {T-TExTS (Teaching Text Expansion for Teacher Scaffolding): Enhancing Text
-             Selection in High School Literature through Knowledge Graph-Based Recommendation},
-  author  = {Gelal, Nirmal and Snow, Chloe and Rios, Ambyr and
-             Jagodnik, Kathleen M. and K{\"u}{\c{c}}{\"u}k McGinty, Hande},
-  journal = {Data Mining and Knowledge Discovery},
-  volume  = {40},
-  number  = {1},
-  pages   = {70},
-  year    = {2026},
-  doi     = {10.1007/s10618-026-01228-5}
+@article{gelal2026t,
+  title={T-TExTS (teaching text expansion for teacher scaffolding): Enhancing text selection in high school literature through knowledge graph-based recommendation},
+  author={Gelal, Nirmal and Snow, Chloe and Rios, Ambyr and Jagodnik, Kathleen M and McGinty, Hande K{\"u}{\c{c}}{\"u}k},
+  journal={Data Mining and Knowledge Discovery},
+  volume={40},
+  number={5},
+  pages={70},
+  year={2026},
+  publisher={Springer}
 }
 ```
 
